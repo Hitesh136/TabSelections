@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4A1FD09A206E0C800030B49F /* LeftFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1FD099206E0C800030B49F /* LeftFlowLayout.swift */; };
+		4A1FD0A0206E18F10030B49F /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4A1FD09F206E18F00030B49F /* demo.gif */; };
 		4AEBC0BD206E0853005A7D7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEBC0BC206E0853005A7D7E /* AppDelegate.swift */; };
 		4AEBC0BF206E0853005A7D7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEBC0BE206E0853005A7D7E /* ViewController.swift */; };
 		4AEBC0C2206E0853005A7D7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AEBC0C0206E0853005A7D7E /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		4A1FD099206E0C800030B49F /* LeftFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftFlowLayout.swift; sourceTree = "<group>"; };
+		4A1FD09F206E18F00030B49F /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 		4AEBC0B9206E0853005A7D7E /* TabSelections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabSelections.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AEBC0BC206E0853005A7D7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AEBC0BE206E0853005A7D7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +47,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A1FD09D206E183F0030B49F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A1FD09E206E18470030B49F /* gif */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4A1FD09E206E18470030B49F /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				4A1FD09F206E18F00030B49F /* demo.gif */,
+			);
+			path = gif;
+			sourceTree = "<group>";
+		};
 		4AEBC0B0206E0853005A7D7E = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +82,7 @@
 		4AEBC0BB206E0853005A7D7E /* TabSelections */ = {
 			isa = PBXGroup;
 			children = (
+				4A1FD09D206E183F0030B49F /* Resources */,
 				4AEBC0D3206E08B7005A7D7E /* SectionHeader */,
 				4AEBC0CE206E08A1005A7D7E /* OptionCollectionViewCell */,
 				4AEBC0BC206E0853005A7D7E /* AppDelegate.swift */,
@@ -154,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AEBC0C7206E0853005A7D7E /* LaunchScreen.storyboard in Resources */,
+				4A1FD0A0206E18F10030B49F /* demo.gif in Resources */,
 				4AEBC0D7206E08B7005A7D7E /* SectionView.xib in Resources */,
 				4AEBC0D2206E08A1005A7D7E /* OptionCollectionViewCell.xib in Resources */,
 				4AEBC0C4206E0853005A7D7E /* Assets.xcassets in Resources */,
